@@ -44,6 +44,9 @@ const NavbarMain = () => {
             <Nav.Link as={Link} href="/properties" onClick={() => setExpanded(false)} className={`${Styles.navLink} ${pathname === '/properties' ? Styles.active : ''} nav-link transition`}>
               عقاراتنا
             </Nav.Link>
+            <Nav.Link as={Link} href="/service" onClick={() => setExpanded(false)} className={`${Styles.navLink} ${pathname === '/service' ? Styles.active : ''} nav-link transition`}>
+             خدماتنا
+            </Nav.Link>
             <Nav.Link as={Link} href="/agents" onClick={() => setExpanded(false)} className={`${Styles.navLink} ${pathname === '/agents' ? Styles.active : ''} nav-link transition`}>
               وكلائنا
             </Nav.Link>
