@@ -1,0 +1,19 @@
+.workHoursList {
+  list-style: none;
+  padding: 0;
+}
+.workHoursItem {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4px;
+}
+.highlight {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+.dayName {
+  font-weight: bold;
+}
+.workHoursItem:nth-child(even) {
+  background-color: #353535;
+}

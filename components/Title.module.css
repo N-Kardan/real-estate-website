@@ -1,0 +1,26 @@
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.sectionTitle p {
+  color: var(--primary-color);
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+.sectionTitle h2 {
+  font-weight: bold;
+  margin: 0px;
+  color: var(--dark-01-color);
+}
+.footerTitle {
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--dark-02-color) !important;
+  margin-bottom: 0px;
+}
+
+:global(.white) h2 {
+  color: #ffffff !important;
+}
