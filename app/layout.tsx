@@ -3,9 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import localFont from 'next/font/local';
 import "./globals.css";
 
-import NavbarMain from "@/components/NavbarMain";
-import FooterMain from "@/components/FooterMain";
-import NavbarTop from "@/components/NavbarTop";
+import NavbarTop from "@/components/Navbar/NavbarTop";
+import NavbarMain from "@/components/Navbar/NavbarMain";
+import FooterMain from "@/components/Footer/FooterMain";
+import FooterButtom from "@/components/Footer/FooterButtom";
 
 const myArabicFont = localFont({
   src: './fonts/JF-Flat-regular.ttf', 
@@ -32,6 +33,7 @@ export default function RootLayout({
           {children}
         </main>
         <FooterMain/>
+        <FooterButtom/>
       </body>
     </html>
   );

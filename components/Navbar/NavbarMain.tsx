@@ -29,7 +29,7 @@ const NavbarMain = () => {
             />
         </Link>
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : true)}>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" onToggle={() => setExpanded(expanded ? false : true)}>
           <div className={Styles.iconWrapper}>
             <FaBars className={`${Styles.toggleIcon} ${!expanded ? Styles.iconVisible : Styles.iconHidden}`} />
             <FaTimes className={`${Styles.toggleIcon} ${expanded ? Styles.iconVisible : Styles.iconHidden}`} />

@@ -1,0 +1,6 @@
+.footerButtom {
+  background-color: var(--dark-02-color);
+  margin: 0px;
+  padding: 8px 0px;
+  color: var(--text-color);
+}
