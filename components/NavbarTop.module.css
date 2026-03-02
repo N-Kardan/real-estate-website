@@ -1,0 +1,35 @@
+.navbarTop {
+  background-color: var(--dark-02-color);
+  display: flex;
+  align-items: center;
+}
+.socialLink svg {
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+}
+.socialLink a:first-of-type svg {
+  margin-left: 0px;
+}
+.phone {
+  background-color: var(--primary-color);
+  padding: 4.141px 10px;
+  margin-left: 8px;
+  color: var(--dark-02-color) !important;
+}
+.phone svg {
+  margin-right: 8px;
+}
+.phone:hover {
+  color: #fff !important;
+}
+.mail {
+  margin: 6px 0px;
+}
+.mail svg {
+  margin-right: 8px;
+  color: var(--primary-color);
+  width: 20px;
+  height: 20px;
+  padding: 1;
+}

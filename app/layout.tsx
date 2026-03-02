@@ -5,6 +5,7 @@ import "./globals.css";
 
 import NavbarMain from "@/components/NavbarMain";
 import FooterMain from "@/components/FooterMain";
+import NavbarTop from "@/components/NavbarTop";
 
 const myArabicFont = localFont({
   src: './fonts/JF-Flat-regular.ttf', 
@@ -25,6 +26,7 @@ export default function RootLayout({
   return (
     <html lang="ar" dir="rtl" data-scroll-behavior='smooth'>
       <body className={myArabicFont.className}>
+        <NavbarTop/>
         <NavbarMain/>
         <main className='min-vh-100'>
           {children}
