@@ -1,8 +1,11 @@
 import Styles from './page.module.css'
 
+import Breadcrumb from '@/components/ui/Breadcrumb/Breadcrumb'
+
 const page = () => {
   return (
     <>
+    <Breadcrumb />
     <section>
       <div className='container'>
         <div className='row'>

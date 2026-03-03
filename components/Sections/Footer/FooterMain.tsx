@@ -1,8 +1,8 @@
 import Styles from './FooterMain.module.css';
 
 import { FaLocationDot, FaRegEnvelope, FaPhone } from "react-icons/fa6";
-import { TitleFooter } from '../../ui/Title'
-import WorkHours from '../../ui/WorkHours';
+import { TitleFooter } from '../../ui/Title/Title'
+import WorkHours from '../../ui/WorkHours/WorkHours';
 
 const FooterMain = () => {
   return (
