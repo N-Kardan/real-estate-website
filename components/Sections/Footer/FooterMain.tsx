@@ -1,8 +1,8 @@
 import Styles from './FooterMain.module.css';
 
 import { FaLocationDot, FaRegEnvelope, FaPhone } from "react-icons/fa6";
-import { TitleFooter } from '../Title'
-import WorkHours from '../WorkHours';
+import { TitleFooter } from '../../ui/Title'
+import WorkHours from '../../ui/WorkHours';
 
 const FooterMain = () => {
   return (
@@ -54,7 +54,6 @@ const FooterMain = () => {
                 <p>إشترك بالنشرة البريدية لتصلك أخر الأخبار والعروض في مجال العقارات</p>
                 <form autoComplete='on'>
                   <div className='w-100'>
-                    <label htmlFor="email"></label>
                     <input
                       type="email"
                       id="email"

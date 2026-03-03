@@ -3,10 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import localFont from 'next/font/local';
 import "./globals.css";
 
-import NavbarTop from "@/components/Navbar/NavbarTop";
-import NavbarMain from "@/components/Navbar/NavbarMain";
-import FooterMain from "@/components/Footer/FooterMain";
-import FooterButtom from "@/components/Footer/FooterButtom";
+import NavbarTop from "@/components/Sections/Navbar/NavbarTop";
+import NavbarMain from "@/components/Sections/Navbar/NavbarMain";
+import FooterMain from "@/components/Sections/Footer/FooterMain";
+import FooterButtom from "@/components/Sections/Footer/FooterButtom";
 
 const myArabicFont = localFont({
   src: './fonts/JF-Flat-regular.ttf', 
