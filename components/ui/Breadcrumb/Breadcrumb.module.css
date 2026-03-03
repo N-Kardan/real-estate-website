@@ -1,40 +1,53 @@
 .breadcrumbNav {
-  background-color: #f8f9fa;
-  padding: 15px 0;
-  border-bottom: 1px solid #e9ecef;
-  margin-bottom: 30px; /* مسافة قبل المحتوى */
+  padding: 100px 0;
+  background-image: url(../../../public/breadcrumb.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 250px;
 }
-
+.imgOverlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
 .breadcrumbList {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  font-size: 14px;
+  flex-wrap: wrap;
+  font-size: 18px;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  justify-content: center;
 }
-
 .breadcrumbItem {
   color: var(--text-color);
 }
-
 .link {
-  color: var(--dark-01-color);
   text-decoration: none;
   transition: color 0.3s;
 }
-
 .link:hover {
   color: var(--primary-color);
   text-decoration: underline;
 }
-
 .active {
   color: var(--primary-color);
   font-weight: 500;
 }
-
 .separator {
   color: var(--text-color);;
   margin: 0 10px;

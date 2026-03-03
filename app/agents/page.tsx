@@ -6,7 +6,7 @@ const page = () => {
   return (
     <>
     <Breadcrumb />
-    <section>
+    <div className={Styles.agentsPage}>
       <div className='container'>
         <div className='row'>
           <div className='col-12'>
@@ -14,7 +14,7 @@ const page = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
     </>
   )
 }

@@ -50,7 +50,8 @@ const Breadcrumb = ({ customCurrentTitle }: BreadcrumbProps) => {
 
   return (
     <nav aria-label="breadcrumb" className={Styles.breadcrumbNav}>
-      <div className="container">
+      <div className={Styles.imgOverlay}></div>
+      <div className="container z-3">
         <ol className={Styles.breadcrumbList}>
           <li className={Styles.breadcrumbItem}>
             <Link href="/" className={Styles.link}>الرئيسية</Link>
