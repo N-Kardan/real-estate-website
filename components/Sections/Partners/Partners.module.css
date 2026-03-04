@@ -1,0 +1,37 @@
+.SectionOurPartners {
+  background-color: var(--bg-color);
+  padding: 80px 0px;
+  margin: 0px;
+}
+.partnerItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.partnerLogo {
+  max-height: 80px;
+  object-fit: contain;
+  opacity: 0.6;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.partnerLogo:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.SectionOurPartners :global(.swiper-button-next),
+.SectionOurPartners :global(.swiper-button-prev) {
+  color: var(--primary-color) !important;
+}

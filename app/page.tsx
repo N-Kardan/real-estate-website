@@ -1,3 +1,5 @@
+import Partners from "@/components/Sections/Partners/Partners";
+
 export default function Home() {
   return (
     <>
@@ -10,6 +12,7 @@ export default function Home() {
         </div>
       </div>
     </section>
+    <Partners/>
     </>
   );
 }
